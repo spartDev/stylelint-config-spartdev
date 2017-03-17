@@ -1,0 +1,51 @@
+{
+  "name": "stylelint-config-spartdev",
+  "version": "1.0.0",
+  "description": "A simple stylelint config for your project",
+  "keywords": [
+    "stylelint",
+    "stylelint-config",
+    "css",
+    "sass"
+  ],
+  "contributors": [
+    {
+      "name": "Thomas Roux",
+      "url": "https://github.com/spartdev"
+    }
+  ],
+  "author": "Spartdev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spartDev/stylelint-config-spartDev.git"
+  },
+  "homepage": "https://github.com/spartDev/stylelint-config-spartDev",
+  "bugs": "https://github.com/spartDev/stylelint-config-spartDev/issues",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "ava": "^0.18.2",
+    "eslint": "^3.17.1",
+    "eslint-config-stylelint": "^6.0.0",
+    "npmpub": "^3.0.1",
+    "stylelint": "^7.0.3"
+  },
+  "peerDependencies": {
+    "stylelint": "^7.0.3"
+  },
+  "scripts": {
+    "ava": "ava --verbose \"__tests__/**/*.js\"",
+    "lint": "eslint . --ignore-path .gitignore",
+    "pretest": "npm run lint",
+    "release": "npmpub",
+    "test": "npm run ava"
+  },
+  "eslintConfig": {
+    "extends": [
+      "stylelint"
+    ]
+  }
+}
