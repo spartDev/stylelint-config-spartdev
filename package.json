@@ -8,12 +8,6 @@
     "css",
     "sass"
   ],
-  "contributors": [
-    {
-      "name": "Thomas Roux",
-      "url": "https://github.com/spartDev"
-    }
-  ],
   "author": "Spartdev",
   "license": "MIT",
   "repository": {
