@@ -11,17 +11,17 @@
   "contributors": [
     {
       "name": "Thomas Roux",
-      "url": "https://github.com/spartdev"
+      "url": "https://github.com/spartDev"
     }
   ],
   "author": "Spartdev",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/spartDev/stylelint-config-spartDev.git"
+    "url": "https://github.com/spartDev/stylelint-config-spartdev.git"
   },
-  "homepage": "https://github.com/spartDev/stylelint-config-spartDev",
-  "bugs": "https://github.com/spartDev/stylelint-config-spartDev/issues",
+  "homepage": "https://github.com/spartDev/stylelint-config-spartdev",
+  "bugs": "https://github.com/spartDev/stylelint-config-spartdev/issues",
   "main": "index.js",
   "files": [
     "index.js"
