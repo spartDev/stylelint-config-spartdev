@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-spartdev",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple stylelint config for your project",
   "keywords": [
     "stylelint",
