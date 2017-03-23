@@ -41,5 +41,8 @@
     "extends": [
       "stylelint"
     ]
+  },
+  "dependencies": {
+    "stylelint-order": "^0.4.1"
   }
 }
